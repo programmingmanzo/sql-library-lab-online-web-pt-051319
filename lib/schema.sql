@@ -1,5 +1,3 @@
-
-@@ -0,0 +1,39 @@
 CREATE TABLE Series (
   id INTEGER PRIMARY KEY,
   title TEXT,
