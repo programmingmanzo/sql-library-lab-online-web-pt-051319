@@ -2,7 +2,8 @@ INSERT INTO series (id, title, author_id, subgenre_id) VALUES (1, "A Song of Ice
 
 INSERT INTO subgenres (id, name) VALUES (1, "medieval"), (2, "space opera");
 
-INSERT INTO authors (id, name) VALUES (1, "George R. R. Martin"), (2, "Second Author");
+INSERT INTO authors (id, name) VALUES (1, "George R. R. Martin"), 
+INSERT INTO authors (id, name) VALUES (2, "Second Author");
 
 INSERT INTO books (id, title, year, series_id) VALUES (1, "Game of Thrones", 1996, 1), 
 INSERT INTO books (id, title, year, series_id) VALUES (2, "A Clash of Kings", 1998, 1), 
